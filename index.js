@@ -170,7 +170,12 @@ Slider.prototype.addEvents = function () {
 };
 
 new Slider('slider1', {
-    autoPlayInterval: undefined,
-    showIndicators: false,
-    images: undefined,
+    autoPlayInterval: 3000,
+    showIndicators: true,
+    images: [
+        'https://blocknotfotografa.ru/wp-content/uploads/2017/10/6694.jpg',
+        'https://cs11.pikabu.ru/post_img/big/2018/06/09/9/1528559713160437186.jpg',
+        'https://latuaitalia.ru/wp-content/uploads/2020/06/shutterstock_669741592.jpg',
+        'https://cdn.pixabay.com/photo/2024/09/09/08/40/beautiful-sunset-on-peaceful-beach-9034196_1280.jpg',
+    ]
 });
